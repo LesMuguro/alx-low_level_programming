@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-/* Display text using the puts function */
-int main(void)
+
+int main(void) /* Display text using the puts function */
 {
 	char Mystr[] = "\"Programming is like building a multilingual puzzle";
 
