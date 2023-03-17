@@ -1,1 +1,1 @@
-This is a script that compiles a C file and created an executable named cisfun
+This is a program that prints "Programming is like building a multilingual puzzle"
