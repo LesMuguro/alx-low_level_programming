@@ -1,1 +1,1 @@
-This is a C program that prints "with proper grammer, but the outcome is a piece of art" followed by a new line
+This is a C program that prints size of various types on the computer it is compiled and run on
