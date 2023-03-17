@@ -1,15 +1,13 @@
 #include <stdio.h>
 
-/*
- * main - this function is meant to display text using the puts function
+/**
+ * main - the main function
  *
- * Return - a function must always return something
+ * Return: always 0
  */
 
-int main(void) /* Display text using the puts function */
+int main(void)
 {
-	char Mystr[] = "\"Programming is like building a multilingual puzzle";
-
-	puts(Mystr);
+	puts("\"Programming is like building a multilingual puzzle);
 	return (0);
 }
