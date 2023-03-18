@@ -18,7 +18,7 @@ int main(void)
 	}
 	else
 	{
-		Return("Error\n");
+		Return(0);
 	}
 
 	Return(0);
