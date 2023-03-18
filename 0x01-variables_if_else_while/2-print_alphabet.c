@@ -18,7 +18,7 @@ int main(void)
 	}
 	else
 	{
-		putchar("Error\n");
+		Return("Error\n");
 	}
 
 	Return(0);
