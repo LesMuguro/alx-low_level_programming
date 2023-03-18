@@ -10,17 +10,17 @@
 int main(void)
 {
 	char a;
-	char new_line;
-	char upper_char;
 
-	a = 'a';
-	upper_char = a - 32;
 	new_line = '\n';
 
 	for (a = 'a'; a <= 'z'; a++)
 	{
 		putchar(a);
-		putchar(upper_char);
+	}
+
+	for (a = 'A'; a <= 'Z'; a++)
+	{
+		putchar(a);
 	}
 
 	putchar(new_line);
