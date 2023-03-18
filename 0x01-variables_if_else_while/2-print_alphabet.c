@@ -11,9 +11,9 @@ int main(void)
 {
 	char a;
 
-	for (a = 'a'; a <= 'z'; ++a)
+	for (a = 'a'; a <= 'z'; a++)
 	{
-		printf("%c\n", a);
+		putchar("%c", a);
 	}		
 
 	return (0);
