@@ -9,10 +9,10 @@
  */
 int main(void)
 {
-	char a;
-	char new_line;
+	char a; /* variable for alphabet */
+	char new_line; 
 
-	new_line = '\n';
+	new_line = '\n'; /* variable to put a new line after a-z are printed */
 
 	for (a = 'a'; a <= 'z'; a++)
 	{
