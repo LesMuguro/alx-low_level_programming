@@ -11,25 +11,26 @@
 int main(void)
 {
 	int n;
-	double ld;
+	int ld;
 
 	n = 0;
-	ld = n % 10;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	if (ld > 0.5)
+	ld = n % 10;
+
+	if (ld > 5)
 	{
-		printf("Last digit of %d is %lf and is greater than 5\n", n, ld);
+		printf("Last digit of %d is %d and is greater than 5\n", n, ld);
 	}
 	else if (ld == 0)
 	{
-		printf("Last digit of %d is %lf and is zero\n", n, ld);
+		printf("Last digit of %d is %d and is zero\n", n, ld);
 	}
 	else if (ld < 0.5 && ld != 0)
 	{
-		printf("Last digit of %d is %lf and is less than 6 and not 0\n", n, ld);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, ld);
 	}
 	else
 	{
