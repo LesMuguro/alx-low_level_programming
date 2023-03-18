@@ -12,11 +12,10 @@ int main(void)
 	char a;
 	char new_line;
 	char upper_char;
-	char lower_char;
 
-	new_line = '\n';
-	upper_char = a - 32;
 	a = 97;
+	upper_char = a - 32;
+	new_line = '\n';
 
 	for (a = 'a'; a <= 'z'; a++)
 	{
