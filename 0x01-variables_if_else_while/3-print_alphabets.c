@@ -16,6 +16,7 @@ int main(void)
 
 	new_line = '\n';
 	upper_char = a - 32;
+	a = 97;
 
 	for (a = 'a'; a <= 'z'; a++)
 	{
