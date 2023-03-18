@@ -12,7 +12,7 @@ int main(void)
 	char a;
 	char new_line;
 
-	new_line = '\n'
+	new_line = '\n';
 
 	for (a = 'a'; a <= 'z'; a++)
 	{
