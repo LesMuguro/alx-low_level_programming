@@ -13,7 +13,7 @@ int main(void)
 	char new_line;
 	char upper_char;
 
-	a = 97;
+	a = 'a';
 	upper_char = a - 32;
 	new_line = '\n';
 
