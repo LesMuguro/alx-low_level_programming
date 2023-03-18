@@ -13,6 +13,7 @@ int main(void)
 	int n;
 	int last_digit;
 
+	n = 0;
 	last_digit = n % 10;
 
 	srand(time(0));
