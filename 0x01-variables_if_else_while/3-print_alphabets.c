@@ -10,6 +10,7 @@
 int main(void)
 {
 	char a;
+	char new_line;
 
 	new_line = '\n';
 
