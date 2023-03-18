@@ -11,16 +11,11 @@ int main(void)
 {
 	char a;
 
-	a = 'a';
-
-	if (a <= 'z')
+	for (a = 'a'; a <= 'z'; ++a)
 	{
-		putchar(a++);
-	}
-	else
-	{
-		Return(0);
-	}
+		printf("%c", a);
+	}		
 
-	Return(0);
+	return (0);
+		
 }
