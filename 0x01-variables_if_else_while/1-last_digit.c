@@ -11,7 +11,7 @@
 int main(void)
 {
 	int n;
-	float ld;
+	double ld;
 
 	n = 0;
 	ld = n % 10;
@@ -21,15 +21,15 @@ int main(void)
 	/* your code goes there */
 	if (ld > 0.5)
 	{
-		printf("Last digit of %d is %f and is greater than 5\n", n, ld);
+		printf("Last digit of %d is %lf and is greater than 5\n", n, ld);
 	}
 	else if (ld == 0)
 	{
-		printf("Last digit of %d is %f and is zero\n", n, ld);
+		printf("Last digit of %d is %lf and is zero\n", n, ld);
 	}
 	else if (ld < 0.5 && ld != 0)
 	{
-		printf("Last digit of %d is %f and is less than 6 and not 0\n", n, ld);
+		printf("Last digit of %d is %lf and is less than 6 and not 0\n", n, ld);
 	}
 	else
 	{
