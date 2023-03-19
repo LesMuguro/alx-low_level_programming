@@ -12,7 +12,7 @@ int main(void)
 	int n;
 
 
-	while ((n = getchar()))
+	while ((n = getchar()) != EOF)
 	{
 		n = 0;
 
