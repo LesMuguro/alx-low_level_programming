@@ -7,11 +7,11 @@
  */
 int main(void)
 {
-	int a;
+	int a = 122;
 
-	for (a = 122; a >= 97; --a)
+	while (a >= 97)
 	{
-		putchar(a - 122);
+		putchar(a - 1);
 	}
 
 	putchar('\n');
