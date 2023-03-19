@@ -11,9 +11,13 @@ int main(void)
 {
 	int n;
 
-	for (n = 0; n < 10; n++)
+	while ((n = getchar()) != EOF)
 	{
-		putchar(*n);
+		while (n < 10)
+		{
+			putchar(n);
+			n++;
+		}
 	}
 
 	putchar('\n');
