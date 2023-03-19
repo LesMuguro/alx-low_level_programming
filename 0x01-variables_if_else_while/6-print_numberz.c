@@ -12,15 +12,9 @@ int main(void)
 	int n;
 
 
-	while ((n = getchar()) != EOF)
+	for (n = 0; n <= 9; n++)
 	{
-		n = 0;
-
-		while (n < 10)
-		{
-			putchar(n);
-			n++;
-		}
+		putchar(n + 48);
 	}
 
 	putchar('\n');
