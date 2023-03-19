@@ -11,6 +11,8 @@ int main(void)
 {
 	int n;
 
+	n = 0;
+
 	while ((n = getchar()) != EOF)
 	{
 		while (n < 10)
