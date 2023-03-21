@@ -14,7 +14,7 @@ int _islower(int c)
 	{
 		_putchar(49);
 	}
-	else
+	else if (c <= 90 && c >= 65)
 	{
 		_putchar(48);
 	}
