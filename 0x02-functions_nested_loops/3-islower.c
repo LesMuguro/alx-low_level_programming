@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
- * _islower - function to check for lowercase
+ * _islower - displays 1 if the input is a lowercase
+ * character. Other cases show 0
  *
- * Return: always 0
+ * c: The character in ASCII code
  *
+ * Return: always 1 for lowercase and 0 for the rest
  */
-int _islower(void)
+int _islower(int c)
 {
-	int c;
-
 	for (c = 97; c <= 122; c++)
 	{
 		_putchar(48);
