@@ -1,1 +1,1 @@
-This is a project with tasks based on functions and nested loops.
+This is a function that prints the alphabet, in lowercase, followed by a new line.
