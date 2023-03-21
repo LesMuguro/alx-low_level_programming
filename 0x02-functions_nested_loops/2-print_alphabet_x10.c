@@ -13,7 +13,6 @@ void print_alphabet_x10(void)
 
 	while (i <= 10)
 	{
-		i++;
 		int a;
 
 		for (a = 97; a <= 122; a++)
@@ -22,5 +21,7 @@ void print_alphabet_x10(void)
 		}
 
 		_putchar('\n');
+
+		i++;
 	}
 }
