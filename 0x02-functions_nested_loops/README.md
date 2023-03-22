@@ -1,1 +1,1 @@
-This is a function that prints the 9 times table, starting with 0.
+This is a function that adds two integers and prints the result.
