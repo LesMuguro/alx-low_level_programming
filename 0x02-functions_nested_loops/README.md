@@ -1,1 +1,1 @@
-This is a function that prints the minute of the day of Jack Bauer, starting from 00:00 to 23:59.
+This is a function that prints the 9 times table, starting with 0.
