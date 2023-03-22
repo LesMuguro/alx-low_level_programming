@@ -3,7 +3,7 @@
 /**
  * times_table - print the 9 times table
  *
- * Return: always 0
+ * Return: none
  *
  */
 void times_table(void)
@@ -21,7 +21,5 @@ void times_table(void)
 		}
 		_putchar(',');
 		_putchar(' ');
-
-		return (0);
 	}
 }
