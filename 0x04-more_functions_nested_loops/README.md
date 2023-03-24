@@ -8,3 +8,4 @@ Task 6: A function that draws a straight line in the terminal.
 Task 7: A function that draws a diagonal line on the terminal.
 Task 8: A function that prints a square, followed by a new line.
 Task 9: A program that prints numbers from 1 to 100 followed by a new line with "Fizz Buzz" in certain places.
+Task 10:  A function that prints a triangle, followed by a new line.
