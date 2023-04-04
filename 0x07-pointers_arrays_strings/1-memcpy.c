@@ -4,6 +4,7 @@
  * *_memcpy - function to copy a memory area
  * @dest: pointer to the copied memory area
  * @src: pointer to the original memory area
+ * @n: argument for the size of memory area
  * Return: returns a pointer
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
