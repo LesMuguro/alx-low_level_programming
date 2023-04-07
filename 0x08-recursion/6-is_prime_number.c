@@ -1,6 +1,6 @@
 #include "main.h"
 
-int is_divisible(int num, int div);
+int actual_prime(int num, int div);
 
 /**
  * is_prime_number - function to print if a number is a prime number or not
